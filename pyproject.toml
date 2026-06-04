@@ -1,0 +1,8 @@
+[project]
+name = "roomsense-ai"
+version = "0.1.0"
+description = "Multimodal indoor safety and layout inspector from room images"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 100

@@ -1,0 +1,12 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+streamlit>=1.36.0
+pillow>=10.3.0
+numpy>=1.26.0
+opencv-python>=4.9.0
+pydantic>=2.7.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+scikit-learn>=1.4.0
+python-multipart>=0.0.9
+pyyaml>=6.0.1

@@ -1,0 +1,13 @@
+rules:
+  - name: narrow_path
+    severity: medium
+    required_objects: [sofa, coffee_table]
+    recommendation: Increase walking clearance between the sofa and table.
+  - name: trip_hazard
+    severity: medium
+    required_objects: [cable]
+    recommendation: Route cables behind furniture or along the wall.
+  - name: cluttered_surface
+    severity: low
+    required_objects: [tv_console]
+    recommendation: Keep surfaces minimal and easy to clean.
