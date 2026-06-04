@@ -1,0 +1,133 @@
+{
+  "image_id": "living_room_01",
+  "image_path": "data/demo_images/living_room_01.jpg",
+  "width": 1152,
+  "height": 1536,
+  "objects": [
+    {
+      "label": "sofa",
+      "confidence": 0.96,
+      "bbox": [
+        672,
+        750,
+        1140,
+        1450
+      ]
+    },
+    {
+      "label": "chaise_lounge",
+      "confidence": 0.92,
+      "bbox": [
+        640,
+        665,
+        895,
+        965
+      ]
+    },
+    {
+      "label": "coffee_table",
+      "confidence": 0.95,
+      "bbox": [
+        405,
+        875,
+        735,
+        1225
+      ]
+    },
+    {
+      "label": "tv_console",
+      "confidence": 0.91,
+      "bbox": [
+        0,
+        620,
+        500,
+        820
+      ]
+    },
+    {
+      "label": "television",
+      "confidence": 0.9,
+      "bbox": [
+        25,
+        455,
+        285,
+        665
+      ]
+    },
+    {
+      "label": "large_window",
+      "confidence": 0.98,
+      "bbox": [
+        410,
+        340,
+        1110,
+        735
+      ]
+    },
+    {
+      "label": "plant",
+      "confidence": 0.89,
+      "bbox": [
+        285,
+        610,
+        505,
+        900
+      ]
+    },
+    {
+      "label": "plant",
+      "confidence": 0.88,
+      "bbox": [
+        965,
+        585,
+        1125,
+        835
+      ]
+    },
+    {
+      "label": "dining_table_partial",
+      "confidence": 0.84,
+      "bbox": [
+        0,
+        1090,
+        250,
+        1535
+      ]
+    },
+    {
+      "label": "chair_foreground",
+      "confidence": 0.86,
+      "bbox": [
+        0,
+        1170,
+        320,
+        1535
+      ]
+    },
+    {
+      "label": "cable",
+      "confidence": 0.74,
+      "bbox": [
+        210,
+        625,
+        340,
+        710
+      ]
+    },
+    {
+      "label": "open_floor_path",
+      "confidence": 0.8,
+      "bbox": [
+        300,
+        760,
+        625,
+        1300
+      ]
+    }
+  ],
+  "risk_labels": [
+    "narrow_path",
+    "trip_hazard",
+    "cluttered_surface"
+  ]
+}

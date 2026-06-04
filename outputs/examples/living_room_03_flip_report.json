@@ -1,0 +1,182 @@
+{
+  "image_id": "living_room_03_flip",
+  "room_type": "living room",
+  "detected_objects": [
+    {
+      "label": "sofa",
+      "confidence": 0.96,
+      "bbox": [
+        12,
+        750,
+        480,
+        1450
+      ],
+      "mask_id": null
+    },
+    {
+      "label": "chaise_lounge",
+      "confidence": 0.92,
+      "bbox": [
+        257,
+        665,
+        512,
+        965
+      ],
+      "mask_id": null
+    },
+    {
+      "label": "coffee_table",
+      "confidence": 0.95,
+      "bbox": [
+        417,
+        875,
+        747,
+        1225
+      ],
+      "mask_id": null
+    },
+    {
+      "label": "tv_console",
+      "confidence": 0.91,
+      "bbox": [
+        652,
+        620,
+        1152,
+        820
+      ],
+      "mask_id": null
+    },
+    {
+      "label": "television",
+      "confidence": 0.9,
+      "bbox": [
+        867,
+        455,
+        1127,
+        665
+      ],
+      "mask_id": null
+    },
+    {
+      "label": "large_window",
+      "confidence": 0.98,
+      "bbox": [
+        42,
+        340,
+        742,
+        735
+      ],
+      "mask_id": null
+    },
+    {
+      "label": "plant",
+      "confidence": 0.89,
+      "bbox": [
+        647,
+        610,
+        867,
+        900
+      ],
+      "mask_id": null
+    },
+    {
+      "label": "plant",
+      "confidence": 0.88,
+      "bbox": [
+        27,
+        585,
+        187,
+        835
+      ],
+      "mask_id": null
+    },
+    {
+      "label": "dining_table_partial",
+      "confidence": 0.84,
+      "bbox": [
+        902,
+        1090,
+        1152,
+        1535
+      ],
+      "mask_id": null
+    },
+    {
+      "label": "chair_foreground",
+      "confidence": 0.86,
+      "bbox": [
+        832,
+        1170,
+        1152,
+        1535
+      ],
+      "mask_id": null
+    },
+    {
+      "label": "cable",
+      "confidence": 0.74,
+      "bbox": [
+        812,
+        625,
+        942,
+        710
+      ],
+      "mask_id": null
+    },
+    {
+      "label": "open_floor_path",
+      "confidence": 0.8,
+      "bbox": [
+        527,
+        760,
+        852,
+        1300
+      ],
+      "mask_id": null
+    }
+  ],
+  "risks": [
+    {
+      "type": "narrow_path",
+      "severity": "medium",
+      "evidence": "The coffee table is visually close to the sofa/chaise, leaving a relatively narrow walking channel.",
+      "grounded_objects": [
+        "sofa",
+        "coffee_table"
+      ],
+      "recommendation": "Move the coffee table slightly toward the room center or away from the sofa to improve walking clearance."
+    },
+    {
+      "type": "trip_hazard",
+      "severity": "medium",
+      "evidence": "A visible cable is detected near the TV console and open floor area.",
+      "grounded_objects": [
+        "cable",
+        "tv_console"
+      ],
+      "recommendation": "Route the cable behind the TV console or attach it along the wall."
+    },
+    {
+      "type": "cluttered_surface",
+      "severity": "low",
+      "evidence": "The TV-console area contains several small objects and plants.",
+      "grounded_objects": [
+        "tv_console",
+        "plant"
+      ],
+      "recommendation": "Keep the console surface minimal to make cleaning and visual scanning easier."
+    },
+    {
+      "type": "healthy_layout_positive",
+      "severity": "positive",
+      "evidence": "Plants are placed near the large window with good natural light.",
+      "grounded_objects": [
+        "plant",
+        "large_window"
+      ],
+      "recommendation": "Keep light-loving plants near the window while preserving access to the window track."
+    }
+  ],
+  "overall_score": 61.0,
+  "summary": "The room is a bright living room with 11 detected object categories. The main issues found are: narrow path, trip hazard, cluttered surface, healthy layout positive. All recommendations are tied to detected objects."
+}

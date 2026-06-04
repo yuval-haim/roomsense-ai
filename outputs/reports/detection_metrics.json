@@ -1,0 +1,9 @@
+{
+  "note": "Demo-mode metric over checked-in annotations. Replace AnnotationDetector with a model for real mAP.",
+  "iou_threshold": 0.5,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "gt_boxes": 48,
+  "pred_boxes": 48
+}

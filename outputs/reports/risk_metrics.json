@@ -1,0 +1,6 @@
+{
+  "note": "Small demo risk-label smoke test. Expand with a manually labeled evaluation set before reporting as benchmark.",
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0
+}
