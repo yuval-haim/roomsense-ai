@@ -223,26 +223,7 @@ These numbers are **not claimed as a real benchmark** because the default detect
 
 For a real benchmark, add 50-100 manually annotated room images and replace the annotation-backed detector with a model backend.
 
----
 
-## How to make this a stronger portfolio project
-
-Recommended next implementation stages:
-
-1. Tune the Grounding DINO prompt vocabulary and thresholds on 50-100 manually labeled room photos.
-2. Add SAM/SAM2 masks for object segmentation.
-3. Replace `HeuristicDepthEstimator` with Depth Anything V2.
-4. Report real detection mAP, segmentation IoU, risk F1, hallucination rate, and latency.
-5. Add an ablation table:
-
-| System | Risk F1 | Grounded-claim rate | Latency |
-|---|---:|---:|---:|
-| VLM only | TODO | TODO | TODO |
-| Detector + rules | TODO | TODO | TODO |
-| Detector + depth + rules | TODO | TODO | TODO |
-| Full RoomSense AI | TODO | TODO | TODO |
-
----
 
 ## Design principle
 
